@@ -1,5 +1,5 @@
-# LIMbo: Your Intuitive Linux System & Docker Navigator
-
+# LIMbo: Your Intuitive Linux & Docker Navigator
+# Might be unfinished in places. Is under long-term development. Use at your own risk.
 [English](#english) | [Русский](#русский)
 
 Tired of `htop` and its limited forks? Meet LIMbo – a powerful, intuitive, and highly functional Text User Interface (TUI) for monitoring your Linux system and navigating your Docker environments. Designed for speed and ease of use, LIMbo goes beyond basic monitoring, offering deep insights and seamless directory transitions with minimal keystrokes.
@@ -7,8 +7,6 @@ Tired of `htop` and its limited forks? Meet LIMbo – a powerful, intuitive, and
 ---
 
 <a name="english"></a>
-
-## English
 
 ### Why LIMbo?
 
@@ -68,7 +66,7 @@ Beyond the TUIs, LIMbo provides a set of powerful command-line utilities for qui
 
 ### Why `l.sh` and `b.sh`?
 
-The idea behind `l.sh` (for **L**aunch) and `b.sh` (for **B**ack) is pure ergonomics. They are intentionally short, one-character names to minimize typing. Combined with Bash tab-completion (`./l.sh<TAB>`), they offer an unparalleled speed for navigating to deeply nested project directories or Docker Compose folders, far surpassing traditional `cd` commands or complex aliases.
+The idea behind `l.sh` (for **L**aunch) and `b.sh` (for **B**ack) is pure ergonomics. They are intentionally short, one-character names to minimize typing. Combined with Bash tab-completion (`./l.<TAB>`), they offer an unparalleled speed for navigating to deeply nested project directories or Docker Compose folders, far surpassing traditional `cd` commands or complex aliases.
 
 When you use `lim tui` or `lim go`, these scripts are *temporarily* created in your *current* directory. This means you don't need to worry about managing them; they appear when you need them and self-delete shortly after use. The `l.sh` script immediately takes you to the target directory and drops you into a new shell, providing a seamless transition. The `b.sh` script, created in the target directory, lets you return to where you started with the same single-hand, quick-completion convenience.
 
@@ -119,7 +117,7 @@ When you use `lim tui` or `lim go`, these scripts are *temporarily* created in y
     ```bash
     lim tp my_project
     # Then in your current terminal:
-    ./l.sh # (and press Tab to auto-complete)
+    ./l.<TAB><ENTER> # (press Tab to auto-complete)
     ```
 
 ### Configuration
@@ -129,10 +127,13 @@ When you use `lim tui` or `lim go`, these scripts are *temporarily* created in y
 * **Cache Expiration**: The Docker cache automatically refreshes every 5 minutes by default, but this can be configured in `~/.config/lim/config.json`.
 
 ---
+# LIMbo: Ваш интуитивный навигатор Linux и Docker
+# Возможно, местами недоработан. Находится в долгосрочной разработке. Используйте на свой страх и риск.
+[English](#english) | [Русский](#русский)
+
+Устали от `htop` и его ограниченных форков? Встречайте LIMbo – мощный, интуитивно понятный и высокофункциональный текстовый пользовательский интерфейс (TUI) для мониторинга вашей Linux-системы и навигации по вашим Docker-окружениям. Разработанный для скорости и простоты использования, LIMbo выходит за рамки базового мониторинга, предлагая глубокие аналитические данные и бесшовные переходы между директориями с минимальным количеством нажатий клавиш.
 
 <a name="русский"></a>
-
-## Русский
 
 ### Почему LIMbo?
 
@@ -243,7 +244,7 @@ When you use `lim tui` or `lim go`, these scripts are *temporarily* created in y
     ```bash
     lim tp my_project
     # Затем в вашем текущем терминале:
-    ./l.sh # (и нажмите Tab для автозавершения)
+    ./l.<TAB><ENTER> # ( Tab для автозавершения)
     ```
 
 ### Конфигурация
