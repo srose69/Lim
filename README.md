@@ -1,5 +1,7 @@
 # LIMbo: Your Intuitive Linux & Docker Navigator
 # Might be unfinished in places. Is under long-term development. Use at your own risk.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License. See the [LICENSE](LICENSE) file for details.
+
 [English](#english) | [Русский](#русский)
 
 Tired of `htop` and its limited forks? Meet LIMbo – a powerful, intuitive, and highly functional Text User Interface (TUI) for monitoring your Linux system and navigating your Docker environments. Designed for speed and ease of use, LIMbo goes beyond basic monitoring, offering deep insights and seamless directory transitions with minimal keystrokes.
@@ -129,6 +131,9 @@ When you use `lim tui` or `lim go`, these scripts are *temporarily* created in y
 ---
 # LIMbo: Ваш интуитивный навигатор Linux и Docker
 # Возможно, местами недоработан. Находится в долгосрочной разработке. Используйте на свой страх и риск.
+Этот проект распространяется под лицензией Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+Подробности смотрите в файле [LICENSE](LICENSE).
+
 [English](#english) | [Русский](#русский)
 
 Устали от `htop` и его ограниченных форков? Встречайте LIMbo – мощный, интуитивно понятный и высокофункциональный текстовый пользовательский интерфейс (TUI) для мониторинга вашей Linux-системы и навигации по вашим Docker-окружениям. Разработанный для скорости и простоты использования, LIMbo выходит за рамки базового мониторинга, предлагая глубокие аналитические данные и бесшовные переходы между директориями с минимальным количеством нажатий клавиш.
